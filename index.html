@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Taekwondo Shop, sell some taekwondo sparring gears">
+    <title>Taekwondo Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <span class="relative-container">
+        <img
+          src="Assets/taekwondo.png"
+          alt="Taekwondo icon"
+        />
+        <b>WORLD TAEKWONDO FEDERATION</b>
+      </span>
+      <span class="mobile">
+        <img
+          src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+          alt="Hamburger Icon"
+        />
+      </span>
+      
+      <ul class="desktop">
+        <li><a href="https://world-taekwondo.netlify.app/">HOME</a></li>
+        <li><a href="https://taekwondo-shop.netlify.app/">SHOP</a></li>
+        <li><a href="#">ATHLETES</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header class="full-screen" id="header">
+      <h1>TAEKWONDO SHOP</h1>
+    </header>
+    <main>
+      <section id="taekwondo-photos">
+        <div class="grid-container">
+          <div class="shop-item" id="item-1">
+            <img src="Assets/item-1.png" alt="Body Protector">
+            <span class="name-tag" id="item-1">Body Protector</span>
+            <span class="price" id="item-1">Rp. 1.300.000</span>
+          </div>
+          <div class="shop-item" id="item-2">
+            <img src="Assets/item-2.png" alt="Helmet">
+            <span class="name-tag" id="item-1">Helmet</span>
+            <span class="price" id="item-1">Rp. 950.000</span>
+          </div>
+          <div class="shop-item" id="item-4">
+            <img src="Assets/item-4.png" alt="Groin Protector">
+            <span class="name-tag" id="item-1">Groin Protector</span>
+            <span class="price" id="item-1">Rp. 700.000</span>
+          </div>
+          <div class="shop-item" id="item-6">
+            <img src="Assets/item-6.png" alt="Gumshield">
+            <span class="name-tag" id="item-1">Gumshield</span>
+            <span class="price" id="item-1">Rp. 150.000</span>
+          </div>
+          <div class="shop-item" id="item-7">
+            <img src="Assets/item-7.png" alt="Shin Protector">
+            <span class="name-tag" id="item-1">Shin Protector</span>
+            <span class="price" id="item-1">Rp. 800.000</span>
+          </div>
+          <div class="shop-item" id="item-8">
+            <img src="Assets/item-8.png" alt="Forearm Protector">
+            <span class="name-tag" id="item-1">Forearm Protector</span>
+            <span class="price" id="item-1">Rp. 800.000</span>
+          </div>
+          <div class="shop-item" id="item-9">
+            <img src="Assets/item-9.png" alt="Uniform / Dobok">
+            <span class="name-tag" id="item-1">Uniform / Dobok</span>
+            <span class="price" id="item-1">Rp. 2.400.000</span>
+          </div>
+          
+        </div>
+      </section>
+      <section id="taekwondo-history">
+        <h2>TAEKWONDO SPARRING GEAR DESCRIPTION</h2>
+        <div class="flex-container">
+          <ul>
+            <li><strong>Headgear / Helmet</strong> : Headgear is worn to protect the head and face from injuries. It usually covers the top, sides, back, and front of the head</li>
+            <li><strong>Mouthguard</strong> : A mouthguard is a crucial protective gear that covers the teeth and gums. It helps absorb impacts to the jaw, reducing the risk of dental injuries and minimizing the chance of concussions.</li>
+            <li><strong>Body Protector / Chest Pad</strong> : The chest protector, also known as a hogu, is a padded vest worn to protect the chest and abdomen. It covers the vital organs and absorbs the impact of strikes, reducing the risk of injury.</li>
+            <li><strong>Dobok / Uniform</strong> : The dobok represents the practitioner's rank and helps in identifying competitors. It allows for unrestricted movement during kicks and strikes.</li>
+            <li><strong>Forearm / Hand Protectors</strong> : Hand protectors, also known as gloves, are worn to protect the hands during sparring matches. They provide padding to absorb the impact of punches and reduce the risk of hand injuries.</li>
+            <li> <strong>Groin Protector</strong> : A groin protector is a protective cup worn by male competitors to protect the groin area. It helps prevent injuries from accidental strikes or impacts.</li>
+            <li><strong>Shin Protectors</strong> : Shin protectors are worn to protect the shins and ankles. They cover the front and sides of the lower leg and provide padding against kicks or accidental impacts. Shin guards are typically made of foam padding or reinforced plastic.</li>
+          </ul>
+          <figure>
+            <picture>
+              <source
+                media="(min-width: 480px)"
+                srcset="Taekwondo Gears"
+              />
+              <img
+                src="Assets/item-0.png"
+                alt="Taekwondo Gears"
+              />
+            </picture>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>ORDER HERE</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data :</legend>
+            <div>
+              <label for="fullName">Name :</label>
+              <input id="fullName" type="text" required />
+            </div>
+            <div>
+                <label for="phonenumber">Phone Number :</label>
+                <input id="phonenumber" type="text" required />
+              </div>
+            <div>
+              <label for="email">Email :</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+                <p>Your Adress :</p>
+                <textarea id="textarea" rows="6" required></textarea>
+              </div>
+          </fieldset>
+          <fieldset>
+            <legend>Your Order :</legend>
+            <div>
+                <p>Items :
+                <select name='order-items'>
+                    <option value='uniform' selected>Uniform / Dobok</option>
+                    <option value='helmet'>Head Guard / Helmet</option>
+                    <option value='body-protector'>Body Protector</option>
+                    <option value='groin-protector'>Groin Protector</option>            
+                    <option value='gumshield'>Gum Shield</option>
+                    <option value='shin-protector'>Shin Protector</option>
+                    <option value='forearm-protector'>Forearm Protector</option>
+                </select>
+                </p>
+            </div>
+            <div>
+                <p>Amount :
+                <select name='order-items'>
+                    <option value='amount-1' selected>1 pcs</option>
+                    <option value='amount-2'>2 pcs</option>
+                    <option value='amount-3'>3 pcs</option>
+                    <option value='amount-4'>4 pcs</option>
+                    <option value='amount-5'>5 pcs</option>
+                    <option value='amount-6'>6 pcs</option>
+                    <option value='amount-7'>7 pcs</option>
+                </select>
+                </p>
+            </div>
+            <div>
+              <p>Delivery</p>
+              <input
+                id="jnt"
+                type="radio"
+                name="delivery"
+                value="jnt"
+                required
+              />
+              <label for="jnt">J&T Express</label>
+
+              <input
+                id="sicepat"
+                type="radio"
+                name="delivery"
+                value="sicepat"
+                required
+              />
+              <label for="sicepat">Si Cepat</label>
+
+              <input
+                id="jne"
+                type="radio"
+                name="delivery"
+                value="jne"
+                required
+                />
+              <label for="jne">JNE</label>
+
+              <input
+                id="posindonesia"
+                type="radio"
+                name="delivery"
+                value="posindonesia"
+                required
+                />
+              <label for="posindonesia">Pos Indonesia</label>
+
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
