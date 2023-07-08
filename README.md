@@ -8,6 +8,9 @@ This project will explain how to deploy GitHub to Netlify and connect it to `.si
 1. How to register an account on Netlify and Deploy GitHub project on Netlify
 2. Connecting project to a `.site` on NiagaHoster using CloudFlare
 
+### Website
+This is an E-Commerce website focused on selling Taekwondo martial arts equipment.
+
 ### Deployment
 You can access the production version of the website by following this [https://alyuza.site/](https://alyuza.site/)
 ### How to register an account on Netlify and Simple Deploy
